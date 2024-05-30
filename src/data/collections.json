@@ -1,0 +1,38 @@
+[
+  {
+    "id": "coll_001",
+    "schoolId": 1,
+    "invoiceNumber": "INV001",
+    "collectionNumber": "COLL001",
+    "date": "2023-04-15",
+    "status": "Valid",
+    "amount": 5000
+  },
+  {
+    "id": "coll_002",
+    "schoolId": 2,
+    "invoiceNumber": "INV002",
+    "collectionNumber": "COLL002",
+    "date": "2023-04-01",
+    "status": "Valid",
+    "amount": 8000
+  },
+  {
+    "id": "coll_003",
+    "schoolId": 4,
+    "invoiceNumber": "INV004",
+    "collectionNumber": "COLL003",
+    "date": "2023-05-01",
+    "status": "Bounced",
+    "amount": 6000
+  },
+  {
+    "id": "coll_004",
+    "schoolId": 5,
+    "invoiceNumber": "INV005",
+    "collectionNumber": "COLL004",
+    "date": "2023-02-15",
+    "status": "Valid",
+    "amount": 6000
+  }
+]

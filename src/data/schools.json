@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Greenhill Academy",
+    "type": "Secondary",
+    "product": "Zeraki Analytics",
+    "county": "Nairobi",
+    "registrationDate": "2022-03-15",
+    "contact": "info@greenhillacademy.com",
+    "balance": 15000
+  },
+  {
+    "id": 2,
+    "name": "Savannah Primary School",
+    "type": "Primary",
+    "product": "Zeraki Finance",
+    "county": "Mombasa",
+    "registrationDate": "2021-09-01",
+    "contact": "admin@savannahprimary.com",
+    "balance": 8000
+  },
+  {
+    "id": 3,
+    "name": "Riverside IGCSE Centre",
+    "type": "IGCSE",
+    "product": "Zeraki Timetable",
+    "county": "Kisumu",
+    "registrationDate": "2023-02-01",
+    "contact": "office@riversideigcse.com",
+    "balance": 12000
+  },
+  {
+    "id": 4,
+    "name": "Westview Secondary School",
+    "type": "Secondary",
+    "product": "Zeraki Analytics",
+    "county": "Nakuru",
+    "registrationDate": "2022-06-01",
+    "contact": "info@westviewsecondary.com",
+    "balance": 10000
+  },
+  {
+    "id": 5,
+    "name": "Hillside Primary",
+    "type": "Primary",
+    "product": "Zeraki Finance",
+    "county": "Eldoret",
+    "registrationDate": "2021-01-01",
+    "contact": "admin@hillsideprimary.com",
+    "balance": 6000
+  }
+]

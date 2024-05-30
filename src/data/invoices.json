@@ -1,0 +1,68 @@
+[
+  {
+    "id": "inv_001",
+    "schoolId": 1,
+    "name": "Greenhill Academy",
+    "invoiceNumber": "INV001",
+    "item": "Zeraki Analytics",
+    "creationDate": "2023-04-01",
+    "dueDate": "2023-05-01",
+    "amount": 10000,
+    "paidAmount": 5000,
+    "balance": 5000,
+    "status": "Incomplete",
+    "daysUntilDue": 3
+  },
+  {
+    "id": "inv_002",
+    "schoolId": 2,
+    "invoiceNumber": "INV002",
+    "item": "Zeraki Finance",
+    "creationDate": "2023-03-15",
+    "dueDate": "2023-04-15",
+    "amount": 8000,
+    "paidAmount": 8000,
+    "balance": 0,
+    "status": "Completed",
+    "daysUntilDue": -13
+  },
+  {
+    "id": "inv_003",
+    "schoolId": 3,
+    "invoiceNumber": "INV003",
+    "item": "Zeraki Timetable",
+    "creationDate": "2023-05-01",
+    "dueDate": "2023-06-01",
+    "amount": 12000,
+    "paidAmount": 0,
+    "balance": 12000,
+    "status": "Pending",
+    "daysUntilDue": 4
+  },
+  {
+    "id": "inv_004",
+    "schoolId": 4,
+    "invoiceNumber": "INV004",
+    "item": "Zeraki Analytics",
+    "creationDate": "2023-04-15",
+    "dueDate": "2023-05-15",
+    "amount": 10000,
+    "paidAmount": 6000,
+    "balance": 4000,
+    "status": "Incomplete",
+    "daysUntilDue": 17
+  },
+  {
+    "id": "inv_005",
+    "schoolId": 5,
+    "invoiceNumber": "INV005",
+    "item": "Zeraki Finance",
+    "creationDate": "2023-02-01",
+    "dueDate": "2023-03-01",
+    "amount": 6000,
+    "paidAmount": 6000,
+    "balance": 0,
+    "status": "Completed",
+    "daysUntilDue": -87
+  }
+]
