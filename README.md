@@ -7,8 +7,8 @@ This project focuses on developing a responsive sales agent dashboard to streaml
 Zeraki, a company dedicated to revolutionizing African education, requires an internal system to enhance sales agent operations. This dashboard aims to improve sales agent efficiency in managing school relationships.
 
 ## Setup/Installation Requirements
-- Fork and Clone this repository; `https://github.com/spookeyy/product_manager`
-- Navigate to the directory and `cd product_manager` folder in your terminal.
+- Fork and Clone this repository; `https://github.com/spookeyy/ZERAKI-TASK.git`
+- Navigate to the directory and `cd ZERAKI-TASK` folder in your terminal.
 - use `code . ` command to open the folder in VScode
 
 ## Features:
@@ -18,7 +18,8 @@ Zeraki, a company dedicated to revolutionizing African education, requires an in
     - Dashboard module: Displas dynamic counters for Key metrics like Collections, Sign-ups, Total Revenue, and Bounced Cheques.
     - Schools module: Provides a list of schools with options to view detailed information, (invoices and collections)
 ### 2. Dashboard Overview:
-    .Top Card Metrics: Showcase key performance indicators (KPIs) on the dashboard for at-a-glance insights:
+#### Top Card Metrics: 
+    Showcase key performance indicators (KPIs) on the dashboard for at-a-glance insights:
         - Collections - Total number of collections made (dynamically updates).
         - Sign-ups - Total new school sign-ups with further breakdown by product (Zeraki Analytics, Zeraki Finance, Zeraki Timetable).
         - Total Revenue -  Overall revenue collected with details showing per-product revenue (Zeraki Analytics, Zeraki Finance, Zeraki Timetable).
@@ -40,7 +41,7 @@ Zeraki, a company dedicated to revolutionizing African education, requires an in
 
 . Facilitate school data organization, viewing, and manipulation, including invoices and collections.
 
-. Schools:
+.Schools:
 
     . Display a list of all schools, allowing users to select a specific school for detailed information on associated invoices and collections.
     . School details include (but are not limited to): name, type (Primary, Secondary, IGCSE), product used, county, registration date, contact information, and school balance (invoices vs. collections).
