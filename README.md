@@ -107,4 +107,4 @@ Deployed Frontend can be accessed here https://zeraki-sales-agent.netlify.app/
     
 ### License
 *Licenced under the MIT Licence
-Copyright (c) 2024 **Wendy Kariuki, Regina Ngunga, Alex Kiprono, Meshack Pangas
+Copyright (c) 2024 **Meshack Pangas
