@@ -13,7 +13,7 @@ Zeraki, a company dedicated to revolutionizing African education, requires an in
 
 ## Features:
 ### 1. Side Navigation
-. Implement a navigation bar for easy access to application functionalities divided in two modules.
+. Implemented a navigation bar for easy access to application functionalities divided in two modules.
 . The sidebar should contain:
     - Dashboard module: Displas dynamic counters for Key metrics like Collections, Sign-ups, Total Revenue, and Bounced Cheques.
     - Schools module: Provides a list of schools with options to view detailed information, (invoices and collections)
