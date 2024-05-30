@@ -15,8 +15,10 @@ Zeraki, a company dedicated to revolutionizing African education, requires an in
 ### 1. Side Navigation
 . Implemented a navigation bar for easy access to application functionalities divided in two modules.
 . The sidebar should contain:
-    - Dashboard module: Displas dynamic counters for Key metrics like Collections, Sign-ups, Total Revenue, and Bounced Cheques.
-    - Schools module: Provides a list of schools with options to view detailed information, (invoices and collections)
+#### Dashboard module: 
+    - Displas dynamic counters for Key metrics like Collections, Sign-ups, Total Revenue, and Bounced Cheques.
+#### Schools module: 
+    - Provides a list of schools with options to view detailed information, (invoices and collections)
 ### 2. Dashboard Overview:
 #### Top Card Metrics: 
     - Showcase key performance indicators (KPIs) on the dashboard for at-a-glance insights:
