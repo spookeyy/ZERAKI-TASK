@@ -19,17 +19,17 @@ Zeraki, a company dedicated to revolutionizing African education, requires an in
     - Schools module: Provides a list of schools with options to view detailed information, (invoices and collections)
 ### 2. Dashboard Overview:
 #### Top Card Metrics: 
-    Showcase key performance indicators (KPIs) on the dashboard for at-a-glance insights:
+    - Showcase key performance indicators (KPIs) on the dashboard for at-a-glance insights:
         - Collections - Total number of collections made (dynamically updates).
         - Sign-ups - Total new school sign-ups with further breakdown by product (Zeraki Analytics, Zeraki Finance, Zeraki Timetable).
         - Total Revenue -  Overall revenue collected with details showing per-product revenue (Zeraki Analytics, Zeraki Finance, Zeraki Timetable).
         - Bounced Cheques - Number of bounced cheques.
-    .Targets Visualization
+#### Targets Visualization
         - Implementation of pie charts to visually represent progress towards signup targets for Zeraki products (Analytics, Finance, Timetable).
             . Clearly differentiate between set targets and achieved targets (actual signups).
             . Include interactive tooltips displaying exact numbers or percentages on hover.
 
-    . Signups Overview
+#### Signups Overview
         - Use bar graphs to visualize signup distribution across school types (Primary, Secondary, IGCSE) for each Zeraki product.
             . Each product should have its own segmented bar graph with colored bars representing school types.
             . Implementing interactive elements like clicking a bar to access detailed statistics.
@@ -41,18 +41,18 @@ Zeraki, a company dedicated to revolutionizing African education, requires an in
 
 . Facilitate school data organization, viewing, and manipulation, including invoices and collections.
 
-.Schools:
+#### Schools:
 
     . Display a list of all schools, allowing users to select a specific school for detailed information on associated invoices and collections.
     . School details include (but are not limited to): name, type (Primary, Secondary, IGCSE), product used, county, registration date, contact information, and school balance (invoices vs. collections).
-. Invoices:
+#### Invoices:
 
     . Provides comprehensive invoice management per school with enhanced filtering (completed/pending) and CRUD capabilities (Create, Read, Update, Delete).
         . Automatic generation of unique invoice numbers.
         . Users can specify due dates, amounts, and associated items (Zeraki products).
         . Allow adding collections to invoices with options for marking partial or full payments.
         . Update invoice status based on collection results (e.g., marking incomplete for bounced collections).
-. Collections:
+#### Collections:
 
 . Manage collections per school effectively, with functionalities to update invoice statuses based on collection outcomes.
     . List all collections for each school, including invoice number, collection number, date of collection, status (Valid, Bounced), and amount.
