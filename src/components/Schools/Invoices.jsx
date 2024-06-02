@@ -69,7 +69,7 @@ const Invoices = ({ schoolId }) => {
     setInvoices(updatedInvoices);
   };
 
-  const handleModalSubmit = async (formData) => {
+  const handleModalSubmit = async (formData, event) => {
     if (modalMode === 'create') {
       const newInvoice = await createInvoice({ ...formData, schoolId });
       setInvoices([...invoices, newInvoice]);
@@ -81,11 +81,20 @@ const Invoices = ({ schoolId }) => {
       setInvoices(updatedInvoices);
     }
     setShowModal(false);
+    event.preventDefault();
   };
 
   const handleCloseModal = () => {
     setShowModal(false);
     setSelectedInvoice(null);
+  };
+
+  const handleChange = (event, formData) => {
+    setFormData({
+      //spread operator
+      ...formData,
+      [event.target.name]: event.target.value,
+    });
   };
 
   return (
@@ -108,6 +117,7 @@ const Invoices = ({ schoolId }) => {
             <div className="p-4 flex flex-col space-y-4 justify-center sm:justify-start items-center">
               <form
                 action="submit"
+                onSubmit={handleModalSubmit}
                 className="grid grid-cols-2 bg-gray-100 p-4 rounded space-y-4 justify-center sm:justify-start items-center"
               >
                 <label htmlFor="invoiceNumber">Invoice Number:</label>
@@ -171,11 +181,13 @@ const Invoices = ({ schoolId }) => {
                   type="number"
                   id="daysUntilDue"
                   name="daysUntilDue"
+                  // onChange={handleChange()}
                   defaultValue={selectedInvoice?.daysUntilDue}
                 />
                 <button
                   type="submit"
                   className="bg-green-700 text-white rounded p-3 mb-2 mt-2 dark:bg-gray-800 dark:text-gray-300"
+                  // onClick={(event) => {event.preventDefault()}}
                 >
                   Submit
                 </button>

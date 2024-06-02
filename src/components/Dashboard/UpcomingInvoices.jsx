@@ -52,16 +52,35 @@ const UpcomingInvoices = ({invoices}) => {
                 {/* payment form */}
                 <form
                   action="submit"
-                  className="flex flex-col space-y-4 justify-center sm:justify-start items-center"
+                  className="grid grid-cols-2 bg-gray-100 p-4 rounded space-y-4 justify-center sm:justify-start items-center"
                 >
-                  <label htmlFor="paymentAmount">Payment Amount:</label>
+                  <label
+                    htmlFor="paymentAmount"
+                    className="block text-gray-700 text-md font-bold mt-3 ml-4"
+                  >
+                    Payment Amount:
+                  </label>
                   <input
+                    className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                     type="number"
                     id="paymentAmount"
                     name="paymentAmount"
                   />
-                  <button type="submit">Pay</button>
-                  <button onClick={handleCloseModal}>Close</button>
+                  <button
+                    className="bg-green-700 text-white rounded p-3 mb-2 mt-2 dark:bg-gray-800 dark:text-gray-300"
+                    type="submit"
+                    onClick={(event) => {
+                      event.preventDefault();
+                    }}
+                  >
+                    Pay
+                  </button>
+                  <button
+                    className="modal-close bg-red-700 text-white rounded p-3 ml-2 mb-2 mt-2"
+                    onClick={handleCloseModal}
+                  >
+                    Close
+                  </button>
                 </form>
               </div>
             }

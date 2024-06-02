@@ -35,7 +35,9 @@ const SignupsOverview = () => {
    };
   return (
     <div className="w-full mr-6 mb-4  sm:mb-0">
-      <h2 className="text-2xl font-bold">Signups Overview</h2>
+      <h2 className="text-2xl font-bold mt-4 text-gray-400 dark:text-gray-500">
+        Signups Overview
+      </h2>
       <BarChart width={500} height={200} data={data}>
         <XAxisComponent />
         <YAxisComponent />

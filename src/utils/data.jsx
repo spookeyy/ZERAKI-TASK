@@ -17,8 +17,7 @@ export const getInvoices = async (schoolId) => {
 
 // getUpcomingInvoices
 export const getUpcomingInvoices = async (schoolId) => {
-  return invoicesData
-    .filter((invoice) => invoice.schoolId === schoolId && invoice.status === 'Incomplete')
+  return invoicesData.filter((invoice) => invoice.schoolId === schoolId && invoice.status === 'Incomplete')
     .sort((a, b) => new Date(a.dueDate) - new Date(b.dueDate));
 };
 console.log("invoicesData: ", getUpcomingInvoices(1));

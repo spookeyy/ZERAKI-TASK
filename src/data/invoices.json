@@ -24,7 +24,7 @@
     "paidAmount": 8000,
     "balance": 0,
     "status": "Completed",
-    "daysUntilDue": -13
+    "daysUntilDue": 1
   },
   {
     "id": "inv_003",
@@ -63,6 +63,6 @@
     "paidAmount": 6000,
     "balance": 0,
     "status": "Completed",
-    "daysUntilDue": -87
+    "daysUntilDue": 8
   }
 ]

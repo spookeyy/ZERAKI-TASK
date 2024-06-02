@@ -22,29 +22,31 @@ const Dashboard = () => {
   return (
     <>
       <div className="p-4 flex flex-col justify-center sm:justify-start items-center sm:ml-64">
-        <div className="display flex-col-2  p-4 w-full bg-blue-100  dark:bg-gray-800 border-2 border-gray-200 border-dashed rounded-lg dark:border-gray-700">
-          <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            <li><div className="flex justify-center h-48 mb-4 rounded bg-gray-50 dark:bg-gray-800">
-            {/* <p className="text-2xl mt-4 text-gray-400 dark:text-gray-500">
+        <div className="display flex-col-2  p-4 bg-blue-100  dark:bg-gray-800 border-2 border-gray-200 border-dashed rounded-lg dark:border-gray-700">
+          <ul className="grid grid-cols-2 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              {/* <p className="text-2xl font-bold mt-4 text-gray-400 dark:text-gray-500">
               Targets Visualization
             </p> */}
-            <li><TargetsVisualization /> </li>
-          </div></li>
-          
-          <div className="flex flex-col justify-center h-48 mb-4 rounded bg-gray-50 dark:bg-gray-800">
-            {/* <p className="text-2xl mb-2 mt-4 text-gray-400 dark:text-gray-500">
-              Signups Overview
-            </p> */}
-            <li><SignupsOverview /> </li>
-          </div>
+              <li className="mb-4">
+                <TargetsVisualization />
+              </li>
+
+            <div className="flex flex-col justify-center h-50 w-0 mb-4 rounded bg-gray-50 dark:bg-gray-800">
+              {/* <p className="text-2xl font-bold mb-2 mt-4 text-gray-400 dark:text-gray-500">
+                Signups Overview
+              </p> */}
+              <li>
+                <SignupsOverview />{" "}
+              </li>
+            </div>
           </ul>
         </div>
       </div>
 
       <div className="">
         <h2 className="text-2xl font-bold">Top Card Metrics</h2>
-          <TopCardMetrics />
-          <UpcomingInvoices invoices={upcomingInvoices} />
+        <TopCardMetrics />
+        <UpcomingInvoices invoices={upcomingInvoices} />
       </div>
     </>
   );
